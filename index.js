@@ -14,7 +14,7 @@ function nameToAttributes(drivers) {
 
   for (const driver of drivers ) {
     names = driver.match(/\S+/g);
-    collection.push(Object.assign({}, ))
+    collection.push(Object.assign({}, { firstName: names[0], lastName: names[1]}))
   }
 
   return collection
