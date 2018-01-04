@@ -10,5 +10,12 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(drivers) {
+  const collection = [];
 
+  for (const driver of drivers ) {
+    names = driver.match(/\S+/g);
+    collection.push(Object.assign({}, ))
+  }
+
+  return collection
 }
