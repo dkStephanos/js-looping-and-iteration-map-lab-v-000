@@ -19,3 +19,13 @@ function nameToAttributes(drivers) {
 
   return collection
 }
+
+function attributesToPhrase(drivers) {
+  const collection = [];
+
+  for (const driver of drivers ) {
+    collection.push("${driver.name} is from ${driver.hometown}")
+  }
+
+  return collection
+}
